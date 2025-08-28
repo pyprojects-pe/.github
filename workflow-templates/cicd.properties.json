@@ -1,0 +1,6 @@
+{
+  "name": "Python CI/CD Workflow Template",
+  "description": "Plantilla de workflow para integración continua y despliegue de proyectos Python usando pytest.",
+  "iconName": "python",
+  "categories": ["Continuous Integration"]
+}
