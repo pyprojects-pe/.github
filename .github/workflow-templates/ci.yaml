@@ -1,0 +1,17 @@
+name: CI Workflow Template
+
+on: workflow_dispatch
+
+jobs:
+
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout del repositorio
+        uses: actions/checkout@v3
+
+      - name: Instalación de dependencias
+        run: uv sync
+
+      - name: Ejecución de pruebas
+        run: pytest .

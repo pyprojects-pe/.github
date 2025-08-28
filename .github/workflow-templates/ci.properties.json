@@ -1,0 +1,6 @@
+{
+  "name": "CI Workflow",
+  "description": "Plantilla para ejecutar pruebas en Python",
+  "iconName": "python",
+  "categories": ["Continuous Integration", "Python"]
+}
