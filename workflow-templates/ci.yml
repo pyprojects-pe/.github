@@ -1,0 +1,11 @@
+name: Python CI Workflow
+on: workflow_dispatch
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Instalacion de dependencias
+              run: uv sync
+            - name: Ejecucion de pruebas
+              run: pytest .

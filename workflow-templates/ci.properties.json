@@ -1,0 +1,6 @@
+{
+    "name": "Python CI Workflow",
+    "description": "Template para apps en python",
+    "iconName": "python",
+    "categories": ["Continuous Integration", "Python"]
+}
